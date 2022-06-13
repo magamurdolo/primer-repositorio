@@ -4,3 +4,18 @@
     text-align: center;
     background-color: aliceblue;
 }
+ .hola{
+     background-color: brown;
+     max-width: 300px;
+ }
+
+ .girar {
+     animation-name: voy-a-girar;
+     animation-duration: 5s;
+     animation-iteration-count: infinite;
+ }
+
+ @keyframes voy-a-girar {
+     0% {rotate: 0deg;}
+     100% {rotate: 360deg;}
+ }
